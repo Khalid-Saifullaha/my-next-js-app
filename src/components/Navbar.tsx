@@ -25,6 +25,12 @@ export default function Navbar() {
             Contact
           </Link>
           <Link
+            href="/dashboard"
+            className="text-gray-800 px-3 py-1 rounded hover:bg-purple-100 hover:text-purple-700 transition-colors font-medium"
+          >
+            Dashboard
+          </Link>
+          <Link
             href="/login"
             className="text-gray-800 px-3 py-1 rounded hover:bg-purple-100 hover:text-purple-700 transition-colors font-medium"
           >
